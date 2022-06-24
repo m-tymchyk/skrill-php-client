@@ -9,7 +9,7 @@
         "ext-json": "*",
         "ext-SimpleXML": "*",
         "ext-filter": "*",
-        "guzzlehttp/guzzle": "6.*",
+        "guzzlehttp/guzzle": "7.*",
         "moneyphp/money": "^3.2"
     },
     "require-dev": {
@@ -32,6 +32,9 @@
     },
     "config": {
         "sort-packages": true,
-        "optimize-autoloader": true
+        "optimize-autoloader": true,
+        "allow-plugins": {
+            "ocramius/package-versions": true
+        }
     }
 }
